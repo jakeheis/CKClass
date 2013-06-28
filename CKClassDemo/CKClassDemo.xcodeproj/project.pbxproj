@@ -20,6 +20,7 @@
 		EF82624C177D3D8A00CB7A76 /* CKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF82624B177D3D8A00CB7A76 /* CKViewController.m */; };
 		EF826254177D3DC100CB7A76 /* CKClassManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EF826253177D3DC100CB7A76 /* CKClassManager.m */; };
 		EF826257177D3E5200CB7A76 /* CKClass.m in Sources */ = {isa = PBXBuildFile; fileRef = EF826256177D3E5200CB7A76 /* CKClass.m */; };
+		EFC3004A177DC23700E2C7F4 /* CKSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFC30049177DC23700E2C7F4 /* CKSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,8 @@
 		EF826253177D3DC100CB7A76 /* CKClassManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKClassManager.m; path = ../../CKClass/CKClassManager.m; sourceTree = "<group>"; };
 		EF826255177D3E5200CB7A76 /* CKClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKClass.h; path = ../../CKClass/CKClass.h; sourceTree = "<group>"; };
 		EF826256177D3E5200CB7A76 /* CKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKClass.m; path = ../../CKClass/CKClass.m; sourceTree = "<group>"; };
+		EFC30048177DC23700E2C7F4 /* CKSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKSecondViewController.h; sourceTree = "<group>"; };
+		EFC30049177DC23700E2C7F4 /* CKSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,8 @@
 				EF826247177D3D8A00CB7A76 /* MainStoryboard.storyboard */,
 				EF82624A177D3D8A00CB7A76 /* CKViewController.h */,
 				EF82624B177D3D8A00CB7A76 /* CKViewController.m */,
+				EFC30048177DC23700E2C7F4 /* CKSecondViewController.h */,
+				EFC30049177DC23700E2C7F4 /* CKSecondViewController.m */,
 				EF826236177D3D8A00CB7A76 /* Supporting Files */,
 			);
 			path = CKClassDemo;
@@ -197,6 +202,7 @@
 				EF82624C177D3D8A00CB7A76 /* CKViewController.m in Sources */,
 				EF826254177D3DC100CB7A76 /* CKClassManager.m in Sources */,
 				EF826257177D3E5200CB7A76 /* CKClass.m in Sources */,
+				EFC3004A177DC23700E2C7F4 /* CKSecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
