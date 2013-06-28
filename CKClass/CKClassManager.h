@@ -22,5 +22,6 @@
 -(void)addClass:(CKClass *)ckclass;
 -(void)addViewClass:(void (^)(UIView *view))block forName:(NSString *)name;
 -(void)applyClass:(NSString *)name toView:(UIView *)view;
+-(BOOL)classExists:(NSString *)name;
 
 @end
