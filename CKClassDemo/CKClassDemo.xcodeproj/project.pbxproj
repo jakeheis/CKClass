@@ -89,15 +89,12 @@
 		EF826235177D3D8A00CB7A76 /* CKClassDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EFC30047177DC02C00E2C7F4 /* CKClass */,
 				EF82623E177D3D8A00CB7A76 /* CKAppDelegate.h */,
 				EF82623F177D3D8A00CB7A76 /* CKAppDelegate.m */,
 				EF826247177D3D8A00CB7A76 /* MainStoryboard.storyboard */,
 				EF82624A177D3D8A00CB7A76 /* CKViewController.h */,
 				EF82624B177D3D8A00CB7A76 /* CKViewController.m */,
-				EF826252177D3DC100CB7A76 /* CKClassManager.h */,
-				EF826253177D3DC100CB7A76 /* CKClassManager.m */,
-				EF826255177D3E5200CB7A76 /* CKClass.h */,
-				EF826256177D3E5200CB7A76 /* CKClass.m */,
 				EF826236177D3D8A00CB7A76 /* Supporting Files */,
 			);
 			path = CKClassDemo;
@@ -115,6 +112,17 @@
 				EF826245177D3D8A00CB7A76 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EFC30047177DC02C00E2C7F4 /* CKClass */ = {
+			isa = PBXGroup;
+			children = (
+				EF826252177D3DC100CB7A76 /* CKClassManager.h */,
+				EF826253177D3DC100CB7A76 /* CKClassManager.m */,
+				EF826255177D3E5200CB7A76 /* CKClass.h */,
+				EF826256177D3E5200CB7A76 /* CKClass.m */,
+			);
+			name = CKClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +319,7 @@
 				EF826251177D3D8A00CB7A76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
