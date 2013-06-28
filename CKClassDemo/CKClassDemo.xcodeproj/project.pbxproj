@@ -39,10 +39,10 @@
 		EF826248177D3D8A00CB7A76 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		EF82624A177D3D8A00CB7A76 /* CKViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CKViewController.h; sourceTree = "<group>"; };
 		EF82624B177D3D8A00CB7A76 /* CKViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CKViewController.m; sourceTree = "<group>"; };
-		EF826252177D3DC100CB7A76 /* CKClassManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKClassManager.h; sourceTree = "<group>"; };
-		EF826253177D3DC100CB7A76 /* CKClassManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKClassManager.m; sourceTree = "<group>"; };
-		EF826255177D3E5200CB7A76 /* CKClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CKClass.h; sourceTree = "<group>"; };
-		EF826256177D3E5200CB7A76 /* CKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CKClass.m; sourceTree = "<group>"; };
+		EF826252177D3DC100CB7A76 /* CKClassManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKClassManager.h; path = ../../CKClass/CKClassManager.h; sourceTree = "<group>"; };
+		EF826253177D3DC100CB7A76 /* CKClassManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKClassManager.m; path = ../../CKClass/CKClassManager.m; sourceTree = "<group>"; };
+		EF826255177D3E5200CB7A76 /* CKClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CKClass.h; path = ../../CKClass/CKClass.h; sourceTree = "<group>"; };
+		EF826256177D3E5200CB7A76 /* CKClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CKClass.m; path = ../../CKClass/CKClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
