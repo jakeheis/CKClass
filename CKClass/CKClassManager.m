@@ -20,6 +20,18 @@
     return _sharedObject;
 }
 
++(void)addClass:(CKClass *)ckclass {
+    [[CKClassManager classManager] addClass:ckclass];
+}
+
++(void)addViewClass:(void (^)(UIView *view))block forName:(NSString *)name {
+    [[CKClassManager classManager] addViewClass:block forName:name];
+}
+
++(void)applyClass:(NSString *)name toView:(UIView *)view {
+    [[CKClassManager classManager] applyClass:name toView:view];
+}
+
 -(id)init {
     if ((self = [super init])) {
         NSMutableDictionary *newDict = [NSMutableDictionary dictionary];
@@ -27,6 +39,7 @@
     }
     return self;
 }
+
 
 -(void)addClass:(CKClass *)ckclass {
     [[self classDictionary] setValue:ckclass forKey:[ckclass className]];

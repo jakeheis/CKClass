@@ -15,6 +15,10 @@
 
 +(CKClassManager *)classManager;
 
++(void)addClass:(CKClass *)ckclass;
++(void)addViewClass:(void (^)(UIView *view))block forName:(NSString *)name;
++(void)applyClass:(NSString *)name toView:(UIView *)view;
+
 -(void)addClass:(CKClass *)ckclass;
 -(void)addViewClass:(void (^)(UIView *view))block forName:(NSString *)name;
 -(void)applyClass:(NSString *)name toView:(UIView *)view;
