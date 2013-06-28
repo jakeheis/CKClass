@@ -1,6 +1,6 @@
 CKClasses
 =====
-CKClasses perform the same basic function as CSS classes: allowing a certain set of appearance rules to be applied to elements across the application.
+CKClasses perform the same basic function as CSS classes: they allow a certain set of appearance-related rules to be shared among elements across an entire application.
 
 Usage
 =====
