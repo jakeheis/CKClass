@@ -1,6 +1,6 @@
 CKClasses
 =====
-CKClasses perform the same basic function as CSS classes: they allow a certain set of appearance-related rules to be shared among elements across an entire application.
+CKClasses perform the same basic function as CSS classes, but for iOS. They allow a certain set of appearance-related rules to be shared among certain elements across an entire application.
 
 Usage
 =====
@@ -11,9 +11,10 @@ Add your class:
     [view setAlpha:0.4f];
 } forName:@"mysterious-red"];
 ```
-then apply it to any view across your entire app:
+then apply it to any view(s) across your entire app:
 ```
 [CKClassManager applyClass:@"mysterious-red" toView:myView];
+[CKClassManager applyClass:@"mysterious-red" toView:mySecondView];
 ```
 About
 =====
