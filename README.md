@@ -1,10 +1,10 @@
-CKClasses
+CKClass
 =====
-CKClasses perform the same basic function as CSS classes, but for iOS. They allow a certain set of appearance-related rules to be shared among certain elements across an entire application.
+A CKClass performs the same basic function as a CSS class, but for iOS. It allows a certain set of appearance-related rules to be shared among certain elements across an entire application.
 
 Usage
 =====
-Add your class:
+Add your class - you can add as many as you want, and add that at any point within your app:
 ```
 [CKClassManager addViewClass:^(UIView *view) {
     [view setBackgroundColor:[UIColor redColor]];
