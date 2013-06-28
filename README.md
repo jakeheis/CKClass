@@ -15,3 +15,6 @@ then apply it to any view across your entire app:
 ```
 [CKClassManager applyClass:@"mysterious-red" toView:myView];
 ```
+About
+=====
+Besides being an awesome little project than can reduce a lot of code duplication, this project was created in order to [put Objective-C back on the map](https://objectivechackathon.appspot.com/). 
