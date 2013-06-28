@@ -4,14 +4,14 @@ A CKClass performs the same basic function as a CSS class, but for iOS. It allow
 
 Usage
 =====
-Add your class - you can add as many as you want, and add that at any point within your app:
+Add your class - you can add as many classes as you want, and add them at any point within your app:
 ```
 [CKClassManager addViewClass:^(UIView *view) {
     [view setBackgroundColor:[UIColor redColor]];
     [view setAlpha:0.4f];
 } forName:@"mysterious-red"];
 ```
-then apply it to any view(s) across your entire app:
+then apply the class to any view(s) in your app:
 ```
 [CKClassManager applyClass:@"mysterious-red" toView:myView];
 [CKClassManager applyClass:@"mysterious-red" toView:mySecondView];
